@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Farm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style_login.css">
+</head>
+
+<body class="css-selector">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid grad">
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <img src="../static/img/logo-no-background.png" class="logo" alt="Responsive Image">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 borderBot vicunaText ">
+                    <li class="nav-item active">
+                        <a class="nav-link vicunaText" aria-current="page"
+                            href="http://127.0.0.1:5500/flask_app/templates/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link vicunaText"
+                            href="http://127.0.0.1:5500/flask_app/templates/login_reg.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link vicunaText"
+                            href="http://127.0.0.1:5500/flask_app/templates/maps_display.html">Find Your Alpaca</a>
+                    </li>
+                </ul>
+                <h1 class="borderBot alpacaText rightMar">Alpaca Farm Solutions</h1>
+            </div>
+        </div>
+    </nav>
+    <div class="alpacaText vicunaText createContain">
+        <h3 class="">Create Your Farm</h3>
+    </div>
+    <div class="alpacaContain">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <form id="formAwesome">
+                    <div class="modal-body">
+                        <div class="form-group row top left">
+                            <label for="size" class="col-sm-6 col-form-label vicunaText">
+                                Size in acres :
+                            </label>
+                            <div class="col-sm-5">
+                                <input type="number" class="form-control bord css-selector vicunaText pacaText"
+                                    id="size">
+                            </div>
+                        </div>
+                        <div class="form-group row top left">
+                            <label for="Location" class="col-sm-6 col-form-label vicunaText">
+                                Location:
+                            </label>
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control css-selector bord vicunaText pacaText"
+                                    id="Location">
+                            </div>
+                        </div>
+                        <div class="form-group row top left">
+                            <label for="animal_three" class="col-sm-6 col-form-label vicunaText">
+                                What animal type do you want in your herd?</label>
+                            <div class="col-sm-5">
+                                <select class="form-control vicunaText pacaText css-selector bord" id="animal_three"
+                                    required>
+                                    <option>Alpaca</option>
+                                    <option>Donkey</option>
+                                    <option>Llama</option>
+                                    <option>Goat</option>
+                                    <option>Cows (Slaughter)</option>
+                                    <option>Cows (Dairy)</option>
+                                    <option>Highland Cows</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row top left">
+                            <label for="animal" class="col-sm-6 col-form-label vicunaText">
+                                What animal type do you want in your herd?</label>
+                            <div class="col-sm-5">
+                                <select class="form-control vicunaText pacaText css-selector bord" id="animal" required>
+                                    <option>Alpaca</option>
+                                    <option>Donkey</option>
+                                    <option>Llama</option>
+                                    <option>Goat</option>
+                                    <option>Cows (Slaughter)</option>
+                                    <option>Cows (Dairy)</option>
+                                    <option>Highland Cows</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row top left">
+                            <label for="animal_two" class="col-sm-6 col-form-label vicunaText">
+                                What animal type do you want in your herd?</label>
+                            <div class="col-sm-5">
+                                <select class="form-control vicunaText pacaText css-selector bord" id="animal_two"
+                                    required>
+                                    <option>Alpaca</option>
+                                    <option>Donkey</option>
+                                    <option>Llama</option>
+                                    <option>Goat</option>
+                                    <option>Cows (Slaughter)</option>
+                                    <option>Cows (Dairy)</option>
+                                    <option>Highland Cows</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-check top leftCheck">
+                            <input class="form-check-input bord css-selector" type="checkbox" value="" id="alpacaCheck"
+                                required>
+                            <label class="form-check-label vicunaText" for="alpacaCheck">
+                                <p>I confirm that I will follow the way of the alpaca. </p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-dark css-selector vicunaText bord">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="../static/script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="formContain form-group">
+        <form action="">
+            <p >Size:</p>
+            <input class="form-control" type="text"></div>
+</form> -->

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+.css-selector {
+    background: linear-gradient(270deg, red, green, yellow);
+    background-size: 600% 600%;
+    -webkit-animation: background 30s ease infinite;
+    -moz-animation: background 30s ease infinite;
+    animation: background 30s ease infinite;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.base{
+    justify-content: space-between;
+    align-items: baseline;
+}
+.alpacaText{
+    border-bottom: solid black 3px;
+    padding: 10px;
+    text-decoration: bold;
+    color: black;
+}
+.bord{
+    border: solid black 3px;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-right: 100px;
+    height: 100px;
+    width: 150px;
+}
+.logoHome{
+    margin-top: 30px;
+    height: 100px;
+    width: 150px;
+}
+.rightMar{
+    margin-right: 50px;
+}
+.top{
+    margin-top: 25px;
+}
+.left{
+    margin-left: 10px;
+}
+.leftCheck{
+    margin-left: 25px;
+}
+.vicunaText{
+    gap: 10px;
+    color: black;
+    text-decoration: bold;
+    font-weight: 700;
+}
+
+.borderBot{
+    border-bottom: solid black;
+}
+.borderButtons{
+    border: solid black;
+}
+.sticker{
+    margin-top: -100px;
+    margin-left: 1550px;
+}
+
+.mainContain{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 650px;
+    border: solid black 3px;
+}
+.alpacaContain{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 700px;
+}
+.subContain{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 600px;
+    border: solid black 3px;
+}
+.altContain{
+    margin-left: 1375px;
+    width: 355px;
+}
+.formContain{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 450px;
+    border: solid black 3px;
+}
+.createContain{
+    text-align: center;
+    margin-left: 300px;
+    width: 300px;
+}
+
+#message {
+    margin-left: 200px;
+    width: 200px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+}
+.pacaText{
+    text-align: center;
+}

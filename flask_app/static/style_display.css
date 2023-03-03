@@ -2,13 +2,7 @@
     margin: 0;
     padding: 0;
 }
-ul{
-    list-style-type: none;
-    text-align: center;
-}
-li{
 
-}
 .css-selector {
     background: linear-gradient(270deg, red, green, yellow);
     background-size: 600% 600%;
@@ -33,70 +27,56 @@ li{
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
 .alpacaText{
-    text-align: center;
+    border-bottom: solid black 3px;
+    padding: 10px;
     text-decoration: bold;
     color: black;
 }
-.vicunaText{
-    font-weight: 700;
+.bord{
+    border: solid black 3px;
 }
-.grad1 {
-    height: 975px;
-    background-image: linear-gradient(red, yellow, green);
-}
-/* front page css */
-.rightMar{
-    margin-right: 100px;
-}
-.mainContain{
-    margin-left: 100px;
-    width: 1700px;
-    height: 750px;
-}
-.subContain{
-    margin-left: 100px;
-    width: 700px;
-}
-
-.altContain{
-    margin-left: 100px;
-    width: 700px;
-}
-
-.borderBot{
-    border-bottom: solid black;
-}
-
-/* image classes */
 .logo{
+    margin-top: 30px;
+    margin-right: 100px;
     height: 100px;
     width: 150px;
 }
-.grad {
-    height: 200px;
+.jackMar{
+    margin-left: 300px;
 }
-
-.alItems{
-    align-items: center;
+.rightMar{
+    margin-right: 50px;
 }
-
-/* button style */
-
-.buttonHeight{
-    height: 40px;
+.pacaText{
+    text-align: center;
 }
-.buttOne{
-    margin-right: 100px;
+.vicunaText{
+    gap: 10px;
+    color: black;
+    text-decoration: bold;
+    font-weight: 700;
 }
-.buttTwo{
-    margin-top: 10px;
-    margin-left: 100px;
+.borderBot{
+    border-bottom: solid black;
 }
-.topP{
+.headContain{
     margin-top: 50px;
+    margin-left: 100px;
+    border-bottom: solid black;
+    width: 900px;
 }
-.top{
-    margin-top: 20px;
+.mainContain{
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 1500px;
+}
+img{
+}
+.alpacaContain{
+    width: 700px;
+}
+.jackMove{
+    margin-top: 84px;
 }

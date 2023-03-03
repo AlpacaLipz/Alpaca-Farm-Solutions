@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style_login.css">
+</head>
+<body class="css-selector">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid grad">
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                    aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <img src="../static/img/logo-no-background.png" class="logoHome" alt="Responsive Image">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 borderBot vicunaText">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/flask_app/templates/front.html">Vision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/flask_app/templates/home.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/flask_app/templates/create_farm.html">Create Your Farm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/flask_app/templates/login_reg.html">Log Out</a>
+                        </li>
+                    </ul>
+                    <h1 class="borderBot alpacaText rightMar base">Alpaca Farm Solutions</h1>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="altContain">
+        <h1 class="alpacaText vicunaText">Find Your Alpacas</h1>
+    </div>
+    <div class="d-flex">
+        <div class="mainContain alpacaText vicunaText bord css-selector">
+            <ul >
+                <li class="borderBot top">Shady Rest Alpacas - 4270 Strattt Rd, Jacksonville, FL 32226</li>
+                <li class="borderBot top">Sunny Acres Alpacas - 411 Ranch rd, Ponte Vedra Beach, FL 32081</li>
+                <li class="borderBot top">Ro Lin Ridge Farm LLC - 15347 NW 298th St, High Springs, FL 32643</li>
+                <li class="borderBot top">Funny Farm Alpacas - 718 W Rusk Ln, Lecanto, FL 34461</li>
+                <li class="borderBot top">LunaSea Alpaca Farm - 18810 Lone Dove Ln, Clermont, FL 34715</li>
+                <li class="borderBot top">Mini Moo Alpacas Too Farm - 87 Methodist Church Rd, Monticello, FL 32344</li>
+                <li class="borderBot top">Sun Spiced Farms Inc - 5420 S Farm Point, Homosassa, FL 34446</li>
+                <li class="borderBot top">Southern Oaks Alpacas - 6443 Griffin Rd, Brooksville, FL 34601</li>
+                <li class="borderBot top">Dogwood Acres Alpacas - 5721 Chestnut Terrace, Lecanto, FL 34461</li>
+                <li class="borderBot top">Golden Spirit Alpaca Ranch - 17902 Spencer Rd, Odessa, FL 33556</li>
+                <li class="borderBot top">Shilo Alpacas - 2720 Ranchland Acres Rd, Lakeland, FL 33809</li>
+                <li class="borderBot top">Meadow Pointe Alpacas - 355 E Main St, Geneva, FL 32732</li>
+            </ul>
+        </div>
+        <div class="subContain" style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+            <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=alpaca+farms&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                </iframe>
+            </div>
+            <a class="the-googlemap-enabler" href="https://kbj9qpmy.com/hrn" id="auth-map-data">Hosting Right Now</a>
+            <style>#embed-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+        </div>
+    </div>
+</body>
+</html>
